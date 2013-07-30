@@ -1,0 +1,220 @@
+/*
+File:			custom.css
+Description:	Custom styles for Your Theme
+HOW TO USE THIS FILE:
+Override any class you want and it will change default styling to suit your needs.
+For example, if you wish to change the default text blog title to grey, you would add the 
+following declarations to this file:
+	#header .blog-title a{ background:#cccccc }     <--- This makes blog title background grey
+*//* .h_left {
+	height: 120px;
+} */
+#header {
+    background: url("images/header_bg.jpg") repeat-x scroll center top transparent;
+    height: 125px;
+}
+#footwidgets-front .widget-spot .widget input {
+    border: 0px;
+    padding: 0 0 0 5px;
+    width: 135px;
+}
+
+.widget table {
+	margin: 1em 2em 3em 2em  ;
+}
+.widget  {
+	margin:0 0 20px;
+}
+.contactinfo p {
+    font: 11px Arial,Helvetica,sans-serif;
+    width: 250px;
+}
+.contactinfo {
+ background: url("/wp-content/uploads/2012/04/chef_web.png") no-repeat scroll right top #EBE5CB;
+ padding: 10px 95px 0 20px;
+}
+.callnow {
+    background: url("/wp-content/uploads/2012/04/soup_veggies.png") no-repeat scroll;
+   float: right;
+     padding: 25px 0 90px 50px;
+text-align: right;
+    width: 215px;
+	margin-top: 10px;
+}
+#content .post_content li {
+	list-style-type: disc;
+}#content .post_content ul {
+	padding-bottom: 10px;
+}
+.post_top {
+       width: 580px;
+}
+#content .posts h3 {
+    margin-left: 30px;
+}
+h3.menu {
+	font-size: 18px;
+	margin-left: 0;
+}
+.underconstruction {
+   font-family: "Helvetica Neue", Helvetica, "Trebuchet MS";
+   margin-top: 110px;
+   margin-left: 40px;
+   position: absolute;
+   font-size: 14px;
+   font-weight: bold;
+   color: #A7430F;
+}
+.thankyou {
+  	font-weight: bold;
+  	color: #A7430F;
+	text-align: left;
+	font-size: 10px;
+	padding-top: 10px;
+}
+.post_title {
+    float: right;
+    width: 510px;
+    padding-top: 20px;
+}
+h6 {
+    color: #A7430F;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    margin-top: 30px;
+}
+#content .post_content {
+    padding-right: 30px;
+    width: 485px;
+}
+table.tcp_products_list .entry-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.2em;
+    padding: 0;
+}
+h2.entrytitle {
+	padding-bottom: 0;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+.entry-price { display: none}
+.tcp_buy_button.tcp_buy_button_simple .tcp_unit_price, .tcp_buy_button.tcp_buy_button_grouped .tcp_unit_price {
+    font-size: 1em;
+    opacity: 0.8;
+    padding-top: 8px;
+}
+.tcp_wrapper {
+margin-left: 150px;
+margin-right: auto;
+    padding-right: 40px;
+    min-height: 700px;
+    height:auto !important; 
+   height: 700px; 
+    width: 650px;
+	
+}
+.tcp_wrapper .container_12  .container_12  {
+   width: 100%;
+    margin: 0 20px 8px;
+}
+table.tcp_products_list, #content table.tcp_products_list {
+    border: 0 none;
+    border-collapse: separate;
+    border-spacing: 2px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    width: 500px;
+}
+
+.tcp_buy_button .tcp-buy-options, .tcp_buy_button .tcp_unit_price, .tcp_buy_button .tcp-buy-dynamic-options, .tcp_buy_button .tcp-add-to-cart, .tcp_buy_button .tcp-add-to-cart-items {
+    padding: 0;
+}
+.tcp_buy_button.tcp_buy_button_simple .tcp_unit_price, .tcp_buy_button.tcp_buy_button_grouped .tcp_unit_price {
+	padding: 0;
+} 	.tcp_total {
+	font-weight: bold;
+	line-height: 1em;	
+	
+}
+
+.tcp_comment  {
+	font-weight: bold;
+}
+
+table.tcp_products_list page-title{
+   font: 2em Georgia,"Times New Roman",Times,serif;;
+	border-bottom: 1px solid #9A8B6D;
+    color: #464032;
+    margin-bottom: 30px;
+	text-transform: capitalize;
+}
+.tcp_shopping_cart_link a {
+	font-weight: bold;
+	padding-top: 20px;
+	
+}
+.tcp_checkout_link a, .tcp_go_to_shopping_cart a {
+	
+	background: #faa51a; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZhYTUxYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNDdhMjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, #faa51a 0%, #f47a20 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#faa51a), color-stop(100%,#f47a20)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #faa51a 0%,#f47a20 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #faa51a 0%,#f47a20 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #faa51a 0%,#f47a20 100%); /* IE10+ */
+background: linear-gradient(to bottom, #faa51a 0%,#f47a20 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faa51a', endColorstr='#f47a20',GradientType=0 ); /* IE6-8 */
+    border: 1px solid #DA7C0C;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal !important;
+    margin: 4px;
+    outline: medium none;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	text-decoration:  none;
+}
+
+input[type="text"] {
+-webkit-appearance: textfield;
+padding: 1px;
+background-color: white;
+border: 2px  solid black;
+border-image: initial;
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+cursor: auto;
+}
+
+#sidebar li {
+background: none;
+border-bottom: none;
+line-height: 14px;
+}
+
+
+
+#sidebar ul.children li.cat-item {
+	margin: 0 0 0 10px;
+}
+#sidebar ul li {
+	padding: 0;
+}
+
+.page_wrap {
+padding-top: 20px;
+}
+
+input #billing_tax_id_number {
+	display: none;
+}

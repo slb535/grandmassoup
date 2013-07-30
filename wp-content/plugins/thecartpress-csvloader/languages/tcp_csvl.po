@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tcp_csvl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-08 22:57+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: sensei <sensei@thecartpress.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: CSVLoaderForTheCartPress.class.php:45
+#: admin/CSVLoader.php:208
+msgid "CSV Loader"
+msgstr ""
+
+#: admin/CSVLoader.php:197
+#, php-format
+msgid "%s products have been uploaded"
+msgstr ""
+
+#: admin/CSVLoader.php:201
+msgid "No product has been uploaded"
+msgstr ""
+
+#: admin/CSVLoader.php:219
+msgid "Post type"
+msgstr ""
+
+#: admin/CSVLoader.php:227
+msgid "Load taxonomies"
+msgstr ""
+
+#: admin/CSVLoader.php:228
+msgid "Select what type of saleable post type do you want to use, usually, Products"
+msgstr ""
+
+#: admin/CSVLoader.php:233
+msgid "Taxonomy"
+msgstr ""
+
+#: admin/CSVLoader.php:241
+msgid "Select the type of taxonomy you want to use. Usually, select Categories (of products)."
+msgstr ""
+
+#: admin/CSVLoader.php:242
+msgid "This action allows to select, later, the category term where to assign all the products."
+msgstr ""
+
+#: admin/CSVLoader.php:243
+msgid "However, each product could be assigned to different terms if one of the columns, in the CSV file, is used to assign them."
+msgstr ""
+
+#: admin/CSVLoader.php:248
+msgid "Separator"
+msgstr ""
+
+#: admin/CSVLoader.php:252
+msgid "Column titles in the first line"
+msgstr ""
+
+#: admin/CSVLoader.php:254
+msgid "These fields are use to define the format of the csv."
+msgstr ""
+
+#: admin/CSVLoader.php:255
+msgid "The Separator, usually, is a comma or the vertical slash \"|\". If the CSV has column titles in the first line, set the field \"Column titles in the first line\"."
+msgstr ""
+
+#: admin/CSVLoader.php:260
+msgid "Enclosure"
+msgstr ""
+
+#: admin/CSVLoader.php:268
+msgid "file"
+msgstr ""
+
+#: admin/CSVLoader.php:276
+msgid "Load"
+msgstr ""
+
+#: admin/CSVLoader.php:277
+msgid "This action It Helps to you to test if the file is right. Only the first four rows will be displayed."
+msgstr ""
+
+#: admin/CSVLoader.php:280
+msgid "These lines are the four first products loaded from the CSV file. If you think they are correct continue with the process."
+msgstr ""
+
+#: admin/CSVLoader.php:313
+msgid "Assign the columns of the CSV file (left column) to the fields of the products (right column)."
+msgstr ""
+
+#: admin/CSVLoader.php:324
+msgid "Imported columns"
+msgstr ""
+
+#: admin/CSVLoader.php:325
+#: admin/CSVLoader.php:331
+msgid "TheCartPress columns"
+msgstr ""
+
+#: admin/CSVLoader.php:330
+msgid "CSV columns"
+msgstr ""
+
+#: admin/CSVLoader.php:341
+msgid "None"
+msgstr ""
+
+#: admin/CSVLoader.php:342
+msgid "Title"
+msgstr ""
+
+#: admin/CSVLoader.php:343
+msgid "Content"
+msgstr ""
+
+#: admin/CSVLoader.php:344
+msgid "Excerpt"
+msgstr ""
+
+#: admin/CSVLoader.php:345
+msgid "Price"
+msgstr ""
+
+#: admin/CSVLoader.php:346
+msgid "Stock"
+msgstr ""
+
+#: admin/CSVLoader.php:347
+msgid "Weight"
+msgstr ""
+
+#: admin/CSVLoader.php:348
+msgid "SKU"
+msgstr ""
+
+#: admin/CSVLoader.php:349
+msgid "Order"
+msgstr ""
+
+#: admin/CSVLoader.php:350
+msgid "Tax"
+msgstr ""
+
+#: admin/CSVLoader.php:351
+msgid "Attachment"
+msgstr ""
+
+#: admin/CSVLoader.php:352
+msgid "Thumbnail"
+msgstr ""
+
+#: admin/CSVLoader.php:370
+msgid "Attach this products to the Taxonomy"
+msgstr ""
+
+#: admin/CSVLoader.php:372
+msgid "No one"
+msgstr ""
+
+#: admin/CSVLoader.php:380
+msgid "Set new products status to"
+msgstr ""
+
+#: admin/CSVLoader.php:382
+msgid "publish"
+msgstr ""
+
+#: admin/CSVLoader.php:383
+msgid "draft"
+msgstr ""
+
+#: admin/CSVLoader.php:387
+msgid "Upload"
+msgstr ""
+
+#: admin/CSVLoader.php:388
+msgid "This action will load the products in the eCommerce. Be patient."
+msgstr ""
+
